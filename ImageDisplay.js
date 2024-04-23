@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import firebase from 'firebase/app';
-import 'firebase/storage'; // Import Firebase Storage
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/storage'; // Import Firebase Storage
 
 // (Optional) Replace with your Firebase configuration
 const firebaseConfig = {
