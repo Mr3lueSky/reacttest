@@ -4,7 +4,7 @@ import ImageDisplay from './ImageDisplay';
 function App() {
   return (
     <div className="App">
-      <ImageDisplay imagePath="igs://esp32demo-83882.appspot.com/data/photo.jpg" />
+      <ImageDisplay imagePath="/data/photo.jpg" />
     </div>
   );
 }
